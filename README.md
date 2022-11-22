@@ -1,8 +1,8 @@
 # Work team Git
 
-> Uma boa prática é não trabalhar na branch main, pois normalmente essa branch é utilizada para deploy em produção.
+> Aqui não tem boa prática não Thi!
 
-- Ver em qual branch eu estou:
+- Ver em qual branch eu estou: 
 
   ```
   git branch
@@ -11,5 +11,7 @@
 - Criar uma nova branch e entrar nela:
 
     ````
-    git checkout -b nome-branch
+    git checkout -b aoba-branch
     ````
+    
+   choices
