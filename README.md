@@ -9,20 +9,20 @@
         
     - Passo 2: Crie uma nova branch para sua tarefa - Sugestão de nome do branch
         
-        `git checkout -b feat/cadastro`
+        `git checkout -b develop-thi`
         
     - Passo 3: A cada ciclo de trabalho (ou dia), lembre-se comitar e salvar o código no github.
         
         `git add . && git commit -m "um texto descritivo"`
         
-        `git push -u origin feat/cadastro`
+        `git push -u origin develop-thi`
         
 - Quando terminar a funcionalidade (Tarefa)
     - Passo 1: Salve seu código no github
         
         `git add . && git commit -m "texto descritivo"`
         
-        `git push feat/cadastro`
+        `git push develop-thi`
         
     - Passo 2: Agora vamos mesclar nossa branch na branch principal (main ou master), porém antes vamos garantir que não há conflitos com a versão mais nova da branch principal.
         
@@ -32,7 +32,7 @@
         
     - Passo 3: Vamos até nossa branch e fazemos o merge
         
-        `git checkout feat/cadastro`
+        `git checkout develop-thi`
         
         `git merge main`
         
@@ -40,6 +40,6 @@
         
         `git add . && git commit -m "texto descritivo"`
         
-        `git push feat/cadastro`
+        `git push develop-thi`
         
     - Passo 5: Ufa, agora só precisamos abrir a Pull Request e aguardar.
